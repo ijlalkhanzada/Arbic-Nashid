@@ -1,0 +1,37 @@
+.naat-template{
+  background: url("../images/naat-template.png")no-repeat;
+  height: 375px;
+  width: 100%;
+  margin-bottom: 45px;
+}
+.middle{
+  .naat-boxes{
+    border: 1px solid #b8b8b8;
+    overflow: hidden;
+    border-radius: 2px;
+    margin: 15px 0;
+    transition: 0.5s ease;
+    box-shadow: 0 0 4px 0 #9f9f9f;
+    &:hover{
+      box-shadow: 0 4px 22px -1px #9f9f9f;
+      transition: 0.5s ease;
+    }
+    span{
+      background: url(../images/name-boxes-img.png) no-repeat;
+      height: 275px;
+      width: 100%;
+      background-position: -203px -216px;
+      display: inline-block;
+    }
+    h4{
+      width: 100%;
+      text-align: center;
+    }
+  }
+  button{
+    background: #0c2026;
+    color: #ffffff;
+    width: 671px;
+    height: 81px;
+  }
+}
