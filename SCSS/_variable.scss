@@ -8,7 +8,8 @@ $silver-color: #bcbcbc;
 $dark-gray: #b0b0b0;
 $whisper-color: #eaeaea;
 $pink-swan: #b8b8b8;
-
+$extra-dark-gray: #a7a7a7;
+$whisper-light: #e5e5e5;
 
 ///////////////////// INDEX PAGE /////////////////////
 
@@ -17,4 +18,11 @@ $index-box-shadow-hover: 0 4px 22px -1px #9f9f9f;
 $index-box-shadow: 0 0 4px 0 #9f9f9f;
 
 //////////////////// NAAT KHUWAN NAME ///////////////
+
+@mixin anchor{
+  color: #333;
+  &:hover , &:focus{
+    text-decoration: none !important;
+  }
+}
 

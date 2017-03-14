@@ -1,12 +1,13 @@
 body{
   background: $body-background;
+
   .middle{
     h1{
       font-size: 45px;
       color: $light-gray-color;
+      font-family: 'Lateef', cursive !important;
       position: relative;
       top: -35px;
-      font-family: 'Raleway', sans-serif;
       font-weight: 700;
     }
     .name-box{
@@ -23,6 +24,12 @@ body{
           color: $gray-color;
           font-size: 25px;
           padding: 40px 0;
+          a{
+            @include anchor;
+            width: 100%;
+            display: inline-block;
+            padding: 40px 0;
+          }
         }
         li:last-child{
           border: none !important;

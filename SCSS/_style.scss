@@ -5,28 +5,35 @@
   margin-bottom: 45px;
 }
 .middle{
-  .naat-boxes{
-    border: 1px solid $pink-swan;
-    border-radius: 2px;
-    background: $white-color;
-    margin: 15px 0;
-    transition: 0.5s ease;
-    box-shadow: $index-box-shadow;
-    &:hover{
-      box-shadow: $index-box-shadow-hover;
+  a{
+   @include anchor;
+    .naat-boxes{
+      border: 1px solid $pink-swan;
+      border-radius: 2px;
+      background: $white-color;
+      margin: 15px 0;
       transition: 0.5s ease;
-    }
-    span{
-      background: url(../images/name-boxes-img.png) no-repeat;
-      height: 275px;
-      width: 100%;
-      background-position: -203px -216px;
-      display: inline-block;
-    }
-    h4{
-      width: 100%;
+      box-shadow: $index-box-shadow;
+      &:hover{
+        box-shadow: $index-box-shadow-hover;
+        transition: 0.5s ease;
+      }
+      span{
+        background: url(../images/name-boxes-img.png) no-repeat;
+        height: 275px;
+        width: 100%;
+        background-position: -203px -216px;
+        display: inline-block;
+      }
+      h4{
+        width: 100%;
+        font-size: 28px;
+        color: $gray-color;
+        font-family: 'Lateef', cursive !important;
+      }
     }
   }
+
   button{
     background: $light-gray-color;
     color: $white-color;
@@ -36,6 +43,10 @@
     margin: 11px 0 70px;
     text-transform: uppercase;
     box-shadow: 0 2px 5px $black-color;
+    &:hover , &:focus , &:active{
+      background: $light-gray-color;
+      color: $white-color;
+    }
   }
 }
 footer{

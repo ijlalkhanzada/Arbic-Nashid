@@ -1,0 +1,25 @@
+.middle{
+  .qasida-box{
+    background: url("../images/mosk-img.png")no-repeat;
+    display: inline-block;
+    width: 100%;
+    background-color: $white-color;
+    padding: 20px 53px;
+    background-position: center 0;
+    margin: 0 0 50px;
+    border: 1px solid $extra-dark-gray;
+    box-shadow: 0 2px 14px $extra-dark-gray;
+    h1{
+
+    }
+    .left-border{
+      border-right: 1px solid $whisper-light;
+    }
+    p{
+      width: 290px;
+      font-family: 'Lateef', cursive !important;
+      margin: 0 auto;
+      font-size: 32px;
+    }
+  }
+}

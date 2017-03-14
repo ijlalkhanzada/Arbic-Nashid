@@ -4,24 +4,31 @@
   width: 100%;
   margin-bottom: 45px; }
 
-.middle .naat-boxes {
-  border: 1px solid #b8b8b8;
-  border-radius: 2px;
-  background: #ffffff;
-  margin: 15px 0;
-  transition: 0.5s ease;
-  box-shadow: 0 0 4px 0 #9f9f9f; }
-  .middle .naat-boxes:hover {
-    box-shadow: 0 4px 22px -1px #9f9f9f;
-    transition: 0.5s ease; }
-  .middle .naat-boxes span {
-    background: url(../images/name-boxes-img.png) no-repeat;
-    height: 275px;
-    width: 100%;
-    background-position: -203px -216px;
-    display: inline-block; }
-  .middle .naat-boxes h4 {
-    width: 100%; }
+.middle a {
+  color: #333; }
+  .middle a:hover, .middle a:focus {
+    text-decoration: none !important; }
+  .middle a .naat-boxes {
+    border: 1px solid #b8b8b8;
+    border-radius: 2px;
+    background: #ffffff;
+    margin: 15px 0;
+    transition: 0.5s ease;
+    box-shadow: 0 0 4px 0 #9f9f9f; }
+    .middle a .naat-boxes:hover {
+      box-shadow: 0 4px 22px -1px #9f9f9f;
+      transition: 0.5s ease; }
+    .middle a .naat-boxes span {
+      background: url(../images/name-boxes-img.png) no-repeat;
+      height: 275px;
+      width: 100%;
+      background-position: -203px -216px;
+      display: inline-block; }
+    .middle a .naat-boxes h4 {
+      width: 100%;
+      font-size: 28px;
+      color: #333333;
+      font-family: 'Lateef', cursive !important; }
 .middle button {
   background: #0c2026;
   color: #ffffff;
@@ -31,6 +38,9 @@
   margin: 11px 0 70px;
   text-transform: uppercase;
   box-shadow: 0 2px 5px #000000; }
+  .middle button:hover, .middle button:focus, .middle button:active {
+    background: #0c2026;
+    color: #ffffff; }
 
 footer {
   background: #0c2026;
@@ -44,9 +54,9 @@ body {
   body .middle h1 {
     font-size: 45px;
     color: #0c2026;
+    font-family: 'Lateef', cursive !important;
     position: relative;
     top: -35px;
-    font-family: 'Raleway', sans-serif;
     font-weight: 700; }
   body .middle .name-box {
     background: #ffffff;
@@ -62,7 +72,32 @@ body {
         color: #333333;
         font-size: 25px;
         padding: 40px 0; }
+        body .middle .name-box ul li a {
+          color: #333;
+          width: 100%;
+          display: inline-block;
+          padding: 40px 0; }
+          body .middle .name-box ul li a:hover, body .middle .name-box ul li a:focus {
+            text-decoration: none !important; }
       body .middle .name-box ul li:last-child {
         border: none !important; }
+
+.middle .qasida-box {
+  background: url("../images/mosk-img.png") no-repeat;
+  display: inline-block;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 20px 53px;
+  background-position: center 0;
+  margin: 0 0 50px;
+  border: 1px solid #a7a7a7;
+  box-shadow: 0 2px 14px #a7a7a7; }
+  .middle .qasida-box .left-border {
+    border-right: 1px solid #e5e5e5; }
+  .middle .qasida-box p {
+    width: 290px;
+    font-family: 'Lateef', cursive !important;
+    margin: 0 auto;
+    font-size: 32px; }
 
 /*# sourceMappingURL=main.css.map */
