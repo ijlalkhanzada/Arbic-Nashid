@@ -6,8 +6,8 @@
 
 .middle .naat-boxes {
   border: 1px solid #b8b8b8;
-  overflow: hidden;
   border-radius: 2px;
+  background: #ffffff;
   margin: 15px 0;
   transition: 0.5s ease;
   box-shadow: 0 0 4px 0 #9f9f9f; }
@@ -21,12 +21,48 @@
     background-position: -203px -216px;
     display: inline-block; }
   .middle .naat-boxes h4 {
-    width: 100%;
-    text-align: center; }
+    width: 100%; }
 .middle button {
   background: #0c2026;
   color: #ffffff;
   width: 671px;
-  height: 81px; }
+  height: 81px;
+  font-size: 30px;
+  margin: 11px 0 70px;
+  text-transform: uppercase;
+  box-shadow: 0 2px 5px #000000; }
+
+footer {
+  background: #0c2026;
+  color: #ffffff; }
+  footer p {
+    padding: 36px 0;
+    margin: 0; }
+
+body {
+  background: #e0e0e0 !important; }
+  body .middle h1 {
+    font-size: 45px;
+    color: #0c2026;
+    position: relative;
+    top: -35px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700; }
+  body .middle .name-box {
+    background: #ffffff;
+    padding: 0 90px;
+    border: 1px solid #bcbcbc;
+    margin-bottom: 50px;
+    box-shadow: 0 5px 13px #b0b0b0; }
+    body .middle .name-box ul {
+      padding: 0; }
+      body .middle .name-box ul li {
+        list-style: none;
+        border-bottom: 1px solid #eaeaea;
+        color: #333333;
+        font-size: 25px;
+        padding: 40px 0; }
+      body .middle .name-box ul li:last-child {
+        border: none !important; }
 
 /*# sourceMappingURL=main.css.map */

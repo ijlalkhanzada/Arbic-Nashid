@@ -1,0 +1,33 @@
+body{
+  background: $body-background;
+  .middle{
+    h1{
+      font-size: 45px;
+      color: $light-gray-color;
+      position: relative;
+      top: -35px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+    }
+    .name-box{
+      background: $white-color;
+      padding: 0 90px;
+      border: 1px solid $silver-color;
+      margin-bottom: 50px;
+      box-shadow: 0 5px 13px $dark-gray;
+      ul{
+        padding: 0;
+        li{
+          list-style: none;
+          border-bottom: 1px solid $whisper-color;
+          color: $gray-color;
+          font-size: 25px;
+          padding: 40px 0;
+        }
+        li:last-child{
+          border: none !important;
+        }
+      }
+    }
+  }
+}

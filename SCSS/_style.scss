@@ -6,14 +6,14 @@
 }
 .middle{
   .naat-boxes{
-    border: 1px solid #b8b8b8;
-    overflow: hidden;
+    border: 1px solid $pink-swan;
     border-radius: 2px;
+    background: $white-color;
     margin: 15px 0;
     transition: 0.5s ease;
-    box-shadow: 0 0 4px 0 #9f9f9f;
+    box-shadow: $index-box-shadow;
     &:hover{
-      box-shadow: 0 4px 22px -1px #9f9f9f;
+      box-shadow: $index-box-shadow-hover;
       transition: 0.5s ease;
     }
     span{
@@ -25,13 +25,24 @@
     }
     h4{
       width: 100%;
-      text-align: center;
     }
   }
   button{
-    background: #0c2026;
-    color: #ffffff;
+    background: $light-gray-color;
+    color: $white-color;
     width: 671px;
     height: 81px;
+    font-size: 30px;
+    margin: 11px 0 70px;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px $black-color;
+  }
+}
+footer{
+  background: $light-gray-color;
+  color: $white-color;
+  p{
+    padding: 36px 0;
+    margin: 0;
   }
 }
