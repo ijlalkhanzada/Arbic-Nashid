@@ -55,8 +55,7 @@ body {
     font-size: 45px;
     color: #0c2026;
     font-family: 'Lateef', cursive !important;
-    position: relative;
-    top: -35px;
+    margin: 25px 0;
     font-weight: 700; }
   body .middle .name-box {
     background: #ffffff;
@@ -83,13 +82,14 @@ body {
       body .middle .name-box ul li:last-child {
         border: none !important; }
 
+@font-face {}
 .middle .qasida-box {
   background: url("../images/mosk-img.png") no-repeat;
   display: inline-block;
   width: 100%;
   background-color: #ffffff;
   padding: 20px 53px;
-  background-position: center 0;
+  background-position: center bottom;
   margin: 0 0 50px;
   border: 1px solid #a7a7a7;
   box-shadow: 0 2px 14px #a7a7a7; }
@@ -100,5 +100,26 @@ body {
     font-family: 'Lateef', cursive !important;
     margin: 0 auto;
     font-size: 32px; }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  h1 {
+    font-size: 25px !important; }
+
+  .qasida-box {
+    padding: 20px 10px !important; }
+    .qasida-box .left-border {
+      border: none !important; }
+    .qasida-box p {
+      font-size: 25px !important;
+      width: 100% !important; } }
+.name-box {
+  padding: 0 10px !important; }
+  .name-box ul li {
+    padding: 36px 7px !important; }
+    .name-box ul li a {
+      padding: 0 !important; }
+
+.waves-effect {
+  width: 100% !important; }
 
 /*# sourceMappingURL=main.css.map */

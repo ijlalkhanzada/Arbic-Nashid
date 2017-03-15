@@ -1,3 +1,6 @@
+@font-face {
+
+}
 .middle{
   .qasida-box{
     background: url("../images/mosk-img.png")no-repeat;
@@ -5,7 +8,7 @@
     width: 100%;
     background-color: $white-color;
     padding: 20px 53px;
-    background-position: center 0;
+    background-position: center bottom;
     margin: 0 0 50px;
     border: 1px solid $extra-dark-gray;
     box-shadow: 0 2px 14px $extra-dark-gray;
@@ -22,4 +25,45 @@
       font-size: 32px;
     }
   }
+}
+
+
+///////////////////////// MEDIA QUERY ///////////////////////////
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  h1{
+    font-size: 25px !important;
+  }
+  .qasida-box{
+    padding: 20px 10px !important;
+    .left-border{
+      border: none !important;
+    }
+    p{
+      font-size: 25px !important;
+      width: 100% !important;
+    }
+  }
+}
+.name-box{
+  padding: 0 10px !important;
+  ul{
+    li{
+      padding: 36px 7px !important;
+      a{
+        padding: 0 !important;
+      }
+    }
+  }
+}
+.waves-effect{
+  width: 100% !important;
 }
