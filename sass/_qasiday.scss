@@ -1,5 +1,6 @@
 @font-face {
-
+  font-family: myFirstFont;
+  src: url(../fonts/LateefRegOT.ttf);
 }
 .middle{
   .qasida-box{
@@ -20,7 +21,7 @@
     }
     p{
       width: 290px;
-      font-family: 'Lateef', cursive !important;
+      font-family: myFirstFont !important;
       margin: 0 auto;
       font-size: 32px;
     }

@@ -28,7 +28,7 @@
       width: 100%;
       font-size: 28px;
       color: #333333;
-      font-family: 'Lateef', cursive !important; }
+      font-family: myFirstFont !important; }
 .middle button {
   background: #0c2026;
   color: #ffffff;
@@ -54,7 +54,7 @@ body {
   body .middle h1 {
     font-size: 45px;
     color: #0c2026;
-    font-family: 'Lateef', cursive !important;
+    font-family: myFirstFont !important;
     margin: 25px 0;
     font-weight: 700; }
   body .middle .name-box {
@@ -82,7 +82,9 @@ body {
       body .middle .name-box ul li:last-child {
         border: none !important; }
 
-@font-face {}
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/LateefRegOT.ttf); }
 .middle .qasida-box {
   background: url("../images/mosk-img.png") no-repeat;
   display: inline-block;
@@ -97,7 +99,7 @@ body {
     border-right: 1px solid #e5e5e5; }
   .middle .qasida-box p {
     width: 290px;
-    font-family: 'Lateef', cursive !important;
+    font-family: myFirstFont !important;
     margin: 0 auto;
     font-size: 32px; }
 
