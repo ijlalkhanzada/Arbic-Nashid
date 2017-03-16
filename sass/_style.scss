@@ -18,14 +18,7 @@
         box-shadow: $index-box-shadow-hover;
         transition: 0.5s ease;
       }
-      span{
-        background: url(../images/name-boxes-img.png) no-repeat;
-        height: 275px;
-        width: 100%;
-        background-position: -203px -216px;
-        display: inline-block;
-      }
-      h4{
+       h4{
         width: 100%;
         font-size: 28px;
         color: $gray-color;

@@ -13,9 +13,6 @@
     margin: 0 0 50px;
     border: 1px solid $extra-dark-gray;
     box-shadow: 0 2px 14px $extra-dark-gray;
-    h1{
-
-    }
     .left-border{
       border-right: 1px solid $whisper-light;
     }
@@ -32,11 +29,37 @@
 ///////////////////////// MEDIA QUERY ///////////////////////////
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
+  .qasida-box{
+    background-size: cover !important;
+  }
+  .naat-khuwan{
+    h1{
+      font-size: 60px !important;
+    }
+    .name-box{
+      padding: 0 10px !important;
+      ul{
+        li{
+          padding: 36px 7px !important;
+          a{
+            padding: 0 !important;
+          }
+        }
+      }
+    }
+  }
+  .left-border{
+    border: none !important;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
+  .qasida-box{
+    background-size: cover !important;
+  }
+  .left-border{
+    border: none !important;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -44,6 +67,7 @@
     font-size: 25px !important;
   }
   .qasida-box{
+    background-size: cover;
     padding: 20px 10px !important;
     .left-border{
       border: none !important;
@@ -53,18 +77,24 @@
       width: 100% !important;
     }
   }
-}
-.name-box{
-  padding: 0 10px !important;
-  ul{
-    li{
-      padding: 36px 7px !important;
-      a{
-        padding: 0 !important;
+  .name-box{
+    padding: 0 10px !important;
+    ul{
+      li{
+        padding: 36px 7px !important;
+        a{
+          padding: 0 !important;
+        }
       }
     }
   }
+  .waves-effect{
+    width: 100% !important;
+  }
+  .naat-boxes{
+    span{
+      background-position: 0 -167px !important;
+    }
+  }
 }
-.waves-effect{
-  width: 100% !important;
-}
+

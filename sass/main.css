@@ -18,12 +18,6 @@
     .middle a .naat-boxes:hover {
       box-shadow: 0 4px 22px -1px #9f9f9f;
       transition: 0.5s ease; }
-    .middle a .naat-boxes span {
-      background: url(../images/name-boxes-img.png) no-repeat;
-      height: 275px;
-      width: 100%;
-      background-position: -203px -216px;
-      display: inline-block; }
     .middle a .naat-boxes h4 {
       width: 100%;
       font-size: 28px;
@@ -103,25 +97,51 @@ body {
     margin: 0 auto;
     font-size: 32px; }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  .qasida-box {
+    background-size: cover !important; }
+
+  .naat-khuwan h1 {
+    font-size: 60px !important; }
+  .naat-khuwan .name-box {
+    padding: 0 10px !important; }
+    .naat-khuwan .name-box ul li {
+      padding: 36px 7px !important; }
+      .naat-khuwan .name-box ul li a {
+        padding: 0 !important; }
+
+  .left-border {
+    border: none !important; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .qasida-box {
+    background-size: cover !important; }
+
+  .left-border {
+    border: none !important; } }
 @media (min-width: 320px) and (max-width: 767px) {
   h1 {
     font-size: 25px !important; }
 
   .qasida-box {
+    background-size: cover;
     padding: 20px 10px !important; }
     .qasida-box .left-border {
       border: none !important; }
     .qasida-box p {
       font-size: 25px !important;
-      width: 100% !important; } }
-.name-box {
-  padding: 0 10px !important; }
-  .name-box ul li {
-    padding: 36px 7px !important; }
-    .name-box ul li a {
-      padding: 0 !important; }
+      width: 100% !important; }
 
-.waves-effect {
-  width: 100% !important; }
+  .name-box {
+    padding: 0 10px !important; }
+    .name-box ul li {
+      padding: 36px 7px !important; }
+      .name-box ul li a {
+        padding: 0 !important; }
+
+  .waves-effect {
+    width: 100% !important; }
+
+  .naat-boxes span {
+    background-position: 0 -167px !important; } }
 
 /*# sourceMappingURL=main.css.map */
