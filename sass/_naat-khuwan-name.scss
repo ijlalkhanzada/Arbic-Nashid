@@ -22,13 +22,13 @@ body{
           border-bottom: 1px solid $whisper-color;
           color: $gray-color;
           font-size: 25px;
-          padding: 40px 0;
+          padding: 26px 0;
 
           a{
             @include anchor;
             width: 100%;
             display: inline-block;
-            padding: 40px 0;
+            //padding: 40px 0;
             text-align: right !important;
           }
         }
