@@ -1,21 +1,24 @@
 .naat-template img {
-  margin-bottom: 70px !important; }
+  width: 100%;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d3cbcb;
+  box-shadow: 0 1px 2px #333; }
 
 .middle a {
   color: #333; }
   .middle a:hover, .middle a:focus {
     text-decoration: none !important; }
-  .middle a .naat-boxes {
+  .middle a .naat-boxe {
     border: 1px solid #b8b8b8;
     border-radius: 2px;
     background: #ffffff;
     margin: 15px 0;
     transition: 0.5s ease;
     box-shadow: 0 0 4px 0 #9f9f9f; }
-    .middle a .naat-boxes:hover {
+    .middle a .naat-boxe:hover {
       box-shadow: 0 4px 22px -1px #9f9f9f;
       transition: 0.5s ease; }
-    .middle a .naat-boxes h4 {
+    .middle a .naat-boxe h4 {
       width: 100%;
       font-size: 28px;
       color: #333333;
@@ -26,7 +29,7 @@
   width: 671px;
   height: 81px;
   font-size: 30px;
-  margin: 11px 0 70px;
+  margin: 11px 0 30px;
   text-transform: uppercase;
   box-shadow: 0 2px 5px #000000; }
   .middle button:hover, .middle button:focus, .middle button:active {
@@ -46,7 +49,7 @@ body {
     font-size: 45px;
     color: #0c2026;
     font-family: myFirstFont !important;
-    margin: 25px 0;
+    margin: 0 0 25px;
     font-weight: 700; }
   body .middle .name-box {
     background: #ffffff;
@@ -133,7 +136,7 @@ body {
   .name-box {
     padding: 0 10px !important; }
     .name-box ul li {
-      padding: 36px 7px !important; }
+      padding: 30px 7px !important; }
       .name-box ul li a {
         padding: 0 !important; }
 
